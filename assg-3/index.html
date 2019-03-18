@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Third Assignment</title>
+	<style>
+	body {
+		background-color: #d2d8d2;
+	}
+	h1 {
+		border: 5px solid black;
+	}
+	</style>
+</head>
+<body>
+	<header id="header">
+		<h1>Assignment 3 - Registration form</h1>
+	</header>
+	<main id="main">
+		<form>
+			<div>
+				<p><strong>Name:</strong></p>
+				<p>First:<input type="text" name="first name" placeholder="First name">  Last:<input type="text" name="last name" placeholder="Last name" required></p>
+			</div>
+			<div>
+				<p><strong>Email:</strong> <input type="email" placeholder="name@place.com" required></p>
+				<p><strong>Password:</strong> <input type="password" name="pwd" placeholder="password" required></p>
+			</div>
+			<div>
+				<textarea rows="10" cols="70" placeholder="Enter introductory text here..."></textarea>
+			</div>
+			<div>
+				<p><strong>Date of Birth</strong> <input type="date" name="birthday" required></p>
+			</div>
+			<div>
+				<p><strong>Mobile Number</strong> <input type="number" name="userphone" placeholder="###-###-####" required></p>
+			</div>
+			<div>
+				<p><strong>Gender:</strong></p> 
+				<p> <input type="radio" name="gender" value="male">Male<br> <input type="radio" name="gender" value="female">Female<br> <input type="radio" name="gender" value="other"> Other</p>
+			</div>
+			<div>
+				<p>
+				<strong>Address:</strong></p>
+				<p>Street Address: <input type="text" name="address" placeholder="street name and number" required></p>
+				<p>City: <input type="text" name="city" placeholder="City" required></p>
+				<p>Province:
+					<select name="province" required>
+						<option value="">Select Province</option>
+						<option value="Alberta">Alberta</option>
+						<option value="BritishColumbia">British Columbia</option>
+						<option value="Manitoba">Manitoba</option>
+						<option value="NewBrunswick">New Brunswick</option>
+						<option value="NewfoundlandandLabrador">Newfoundland and Labrador</option>
+						<option value="NorthwestTerritories">Northwest Territories</option>
+						<option value="NovaScotia">Nova Scotia</option>
+						<option value="Nunavut">Nunavut</option>
+						<option value="Ontario">Ontario</option>
+						<option value="PrinceEdwardIsland">Prince Edward Island</option>
+						<option value="Quebec">Quebec</option>
+						<option value="Saskatchewan">Saskatchewan</option>
+						<option value="Yukon">Yukon</option>
+					</select>
+				</p>
+				<p>Country:
+					<select name="Country" required>
+						<option value="">Select Country</option>
+						<option value="Canada">Canada</option>
+						<option value="other">Other</option>
+					</select>
+				</p>
+				<p>Postal Code: <input type="text" name="postcode" placeholder="L#L #L#" required></p>
+			</div>
+			<div>
+				<p><strong>Hobbies/Interests</strong></p>
+				<input type="checkbox" name="hobby1">Hobby 1<br><input type="checkbox" name="interest1">Interest 1<br><input type="checkbox" name="hobby2">Hobby 2<br><input type="checkbox" name="interest2">Interest 2
+			</div>
+			<div>
+				<p><strong>Website</strong> <input type="url" name="homepage" placeholder="www.website.com" required></p>
+			</div>
+			<div>
+				<button type="submit" value="Submit">Submit</button>    <button type="reset" value="reset">Reset</button>
+			</div>
+		</form>
+	</main>
+	<footer id="footer">
+		<p>All fields must be completed before form is submitted.</p> 
+	</footer>
+</body>
+</html>
