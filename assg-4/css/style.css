@@ -1,0 +1,53 @@
+	.body {
+		width: 960px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.header {
+		background-color: #7cc576;
+		height: 325px;
+	}
+	.logo {
+		border-radius: 50%;
+		float: left;
+		margin: 20px;
+	}
+	.h1 {
+		text-align: center;
+		position: relative;
+		top: 50px;
+	}
+	.head-box {
+		text-align: center;
+		background-color: #6dcff6;
+		width: 17%;
+		display: inline-block;
+		margin: 15px;
+		position: relative;
+		top: 100px;
+	}
+	.main-box-1 {
+		width: 65%;
+		float: left;
+	}
+	.main-aside {
+		width: 35%;
+		float: right;
+	}
+	.secondary-content {
+		width: 100%;
+		display: inline-block;
+		margin: 20px;
+	}
+	.column {
+  		float: left;
+  		width: 33.33%;
+  	}
+	.footer {
+		background-color: #7cc576;
+		height: 110px;
+		width: 100%;
+		float: left;
+	}
+	.icons {
+		float: right;
+	}
