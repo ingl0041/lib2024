@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QA for LIB2024</title>
+</head>
+<body>
+	<header id="header">
+		<h1>QA for LIB2024</h1>
+	</header>
+	<main id="main">
+		<div>
+			<ol>
+			<li>
+				<p><strong>Qus:</strong> What are the three components of web?</p>
+				<p><strong>Ans:</strong> The three components of web are: Hyper Text Markup Language (HTML), Cascading Style Sheets (CSS), and Javascript. HTML does not style the content, CSS does, and Javascript makes the web pages interactive.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Define version control and give one example.</p>
+				<p><strong>Ans:</strong> Version control is a system which will record changes made to files when they are made so previous versions can be recalled late. An example of this would be Github.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> What tag is used to create the title of a web page? Give an example.</p>					
+				<p><strong>Ans:</strong> The tag used to create the title of a webpage is the title tag. An example of this would be QA for LIB2024 placed within the title tag to establish a title in the browser toolbar and for search results.<p> < title >QA for LIB2024 < /title ></p></p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> What tag is used to create a paragraph in html? Give an example.</p>
+				<p><b>Ans:</b> The tag used to create a paragraph in html is p. For example: <p>This is a paragraph.</p> This is created using < p >This is a paragraph < /p >.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Identify the odd one from these tags < span >, < p >, < a >, < i > and state the reason?</p>
+				<p><strong>Ans:</strong> The odd tag is < a >. This tag is the only one of the four that is not used to format the look of the document, instead it is used to link one page to another.</p>
+			</li>
+			<li>
+				<p><b>Qus:</b> What are the tags required to create a navigation list in HTML?</p>
+				<p><strong>Ans:</strong> The tags required to create a navigation list in HTML are: < nav > and < a href > with the link included within the < a href > tag.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> What element is used to create images? Name its attributes.</p>
+				<p><strong>Ans:</strong> The element used to create images is < img >. the src attribute is used to establish the URL of the image, and the alt attribute is used to determine the text that will appear if the image cannot be displayed on the webpage. width and height are used to establish the width and height of the image when it appears on the webpage.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Identify the odd one from these tags: < table >, < tr >, < b >, < td > and state the reason.</p>
+				<p><strong>Ans:</strong> The odd tag is < b >. All three other tags are used to create tables within an html document. the < b >. tag is used to make text bold.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Give an example of color picker input.</p>
+				<p><strong>Ans:</strong> An example of a color picker input would be < input type="color" > This defines the color picker which can then be selected and a color chosen. It will look like this: <input type="color"></p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong>> What is the use of name and value attributes? Give two examples.</p>
+				<p><strong>Ans:</strong>> The use of name and value attributes is that the name attribute is used to specify a name for a element which can be used as a reference when the information is submitted and the value attribute specifies the value of an element which defines the text of the buttons they are being used for. Two examples are: < input type="text" name="full name" will create a box for text <input type="text" name="full name"> and < input type="submit" value="submit" will create a button with a specific function <input type="submit" value="submit"></p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Give an example of inline style.</p>
+				<p><strong>Ans:</strong> An example of inline style would be having a different coloured heading in the document which would be accomplished by < h1 style="color: green;" >Green Heading < /h1> which would look like this in the document: <h1 style="color: green;">Green Heading</h1></p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> How would you link an external style sheet? Give an example.</p>
+				<p><strong>Ans:</strong> To link an external style sheet you must put a link element in the < head > of the document. It would look like this: < link rel="stylesheet" type="text/css" href="mystyl.css"> This tells the program what is to be done and where the external sheet is coming from.</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.</p>
+				<p><strong>Ans:</strong>That would look like this:<br>
+					.div.absolute {<br>
+					position: absolute;<br>
+  					width: 200px;<br>
+  					height: 200px<br>
+  					border: 5px solid black;<br>
+				}</p>
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Create CSS keyframes block called "spin" that rotates an element.</p>
+				<p><strong>Ans:</strong> That would look like this:<br>
+					#spin {<br>
+					 	animation-name: spinner;<br>
+    					animation-timing-function: linear;<br>
+    					animation-iteration-count: infinite;<br>
+    					animation-duration: 0.5<br>
+    				}
+			</li>
+			<li>
+				<p><strong>Qus:</strong> Create CSS animation block to rotate an element that has the following properties:</p>
+					<ul>
+						<li>class "rotate-me"></li>
+						<li>it rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</li>
+					</ul>
+				<p><strong>Ans:</strong> In the CSS portion of the document that would look like:<br>
+					#spin {<br>
+						animation-name: spinner;<br>
+    					animation-timing-function: linear;<br>
+    					animation-iteration-count: 5;<br>
+    					animation-duration: 0.5<br>
+    				}</p>
+    			<p> Within the html portion it would have:<br>< div class="rotate-me"> followed by instructions for what the rotating thing should be.</p> 	
+		</ol>
+		</div>
+	</main>
+	<footer id="footer">
+	</footer>
+</body>
+</html>
