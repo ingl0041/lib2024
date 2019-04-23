@@ -1,0 +1,142 @@
+	/* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+	p {
+		font-family: 'Roboto', sans-serif;
+	}
+	.header {
+		width: 100%;
+	}
+	.main {
+		width: 100%;
+		background-image: url("../img/dynamic-style.png");
+	}
+	h1 {
+		color: #72a9ae;
+	}
+	h2 {
+		color: #72a9ae;
+	}
+	h3 {
+		color: #ffffff;
+	}
+	.navigation {
+		width: 100%;
+		height: 35px;
+		background-color: #72a9ae ;
+	}
+	.bar {
+		margin-right: 100px;
+		color: #000000;
+	}
+	.img {
+		height: 300px;
+		width: 30%;
+		float: right;
+		padding: 10px;
+	}
+	.img.hover {
+		height: 500px;
+		width: 50%;
+	}
+	table, td, th {
+		border-collapse: collapse;
+		border: 1px solid black;
+		font-family: 'Roboto', sans-serif;
+	}
+	tr:nth-child(even) {
+		background-color: #efefef;
+	}
+	.secondary {
+		width: 80%;
+		height: 440px;
+		margin: auto;
+	}
+	.form {
+		width: 50%;
+		height: 440px;
+		float: left;
+		text-align: left;
+	}
+	input {
+		float: right;
+		margin-right: 45%;
+	}
+	select {
+		float: right;
+		margin-right: 45%;
+		width: 175px;
+	}
+	.box {
+		height: 400px;
+		width: 300px;
+		background-color: #ffffff;
+		float: left;
+		text-align: center;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.footer {
+		width: 100% ;
+		height: 255px ;
+		background-color: #454545;
+	}
+	.container {
+		width: 100%;
+		height: 255px;
+		margin: auto;
+		padding: 10px;
+	}
+	.left {
+		float: left;
+		width: 33%;
+		color: #ffffff;
+	}
+	.link {
+		color: #ffffff;
+	}
